@@ -105,6 +105,79 @@ section.work .counter-icon {
 }
 
 
+/* section slider style */
+
+.slider{
+    background-image: linear-gradient(rgba(0, 119, 255, 0.664) , rgba(0, 119, 255, 0.664)) , url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+    padding: 8rem 0;
+  }
+
+  .slider-img h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1rem;
+  }
+  .about-slider p{
+    line-height: 1.8;
+    color: white;
+  }
+  .par{
+    width: 65%;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  .carousel-indicators{
+    top: 120%;
+  }
+
+  .card-body a, .card-footer a{
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  .card-body a:hover, .card-footer a:hover{
+    color: #0078ff;
+  }
+  .card-body h3{
+    font-size: 1.3rem;
+    margin-top: .6rem;
+    font-weight: 500;
+  }
+.card-img img{
+  height: 32px;
+  width: 32px;
+}
+.clock{
+  color:  #8a8a8a;
+}
+.card-head{
+  top: -8%;
+  background-color: #0078ff;
+  
+}
+.card-head h6{
+  color: #fff;
+    font-size: .7rem;
+    
+    
+    
+}
+
+
+ /* end slider section */
+
 /* Start contact section */
 
 #contact {
